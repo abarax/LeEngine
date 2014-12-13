@@ -1,56 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1be66768-61f3-4676-8cf2-89107d1fc248" name="Default" comment="" />
+    <list default="true" id="1be66768-61f3-4676-8cf2-89107d1fc248" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/BasicShader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Texture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/shaders/phongFragment.frag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/shaders/phongVertex.vert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/core/Input.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/Input.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEngine.iml" afterPath="$PROJECT_DIR$/LEngine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/core/Main.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/math/Matrix4.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/math/Matrix4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/core/ResourceLoader.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/ResourceLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/core/Util.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Vertex.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Vertex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/shaders/basicFragment.frag" afterPath="$PROJECT_DIR$/res/shaders/basicFragment.frag" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/shaders/basicVertex.vert" afterPath="$PROJECT_DIR$/res/shaders/basicVertex.vert" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="3DGameEngine.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418366823979" ignored="false" />
+    <file path="/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418468012424" ignored="false" />
     <file path="/Window.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418366992968" ignored="false" />
-    <file path="/fragment.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287396767" ignored="false" />
+    <file path="/fragment.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418472395382" ignored="false" />
     <file path="/Time.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418389325438" ignored="false" />
-    <file path="/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418434566811" ignored="false" />
-    <file path="/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418266647539" ignored="false" />
+    <file path="/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418474613526" ignored="false" />
+    <file path="/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418467715896" ignored="false" />
     <file path="/Vector.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418267391672" ignored="false" />
     <file path="/Vector2.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418267312115" ignored="false" />
-    <file path="/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418433294837" ignored="false" />
-    <file path="/Matrix4.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418433698504" ignored="false" />
+    <file path="/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418470403318" ignored="false" />
+    <file path="/Matrix4.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418470995797" ignored="false" />
     <file path="/Quaternion.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418269466130" ignored="false" />
-    <file path="/RenderUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418274329911" ignored="false" />
-    <file path="/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418428986387" ignored="false" />
-    <file path="/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418430262282" ignored="false" />
-    <file path="/Util.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418428000787" ignored="false" />
+    <file path="/RenderUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418471944509" ignored="false" />
+    <file path="/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418439171073" ignored="false" />
+    <file path="/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418439265825" ignored="false" />
+    <file path="/Util.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418437077366" ignored="false" />
     <file path="/ShaderProgram.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418275180065" ignored="false" />
     <file path="/FileUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418275195014" ignored="false" />
-    <file path="$PROJECT_DIR$/../Test/src/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418364172962" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/src/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418468014567" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418279430702" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418279425421" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418280435307" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/Util.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418279746797" ignored="false" />
-    <file path="/ResourceLoader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418425946223" ignored="false" />
-    <file path="/Shader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418387486079" ignored="false" />
+    <file path="/ResourceLoader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418436735091" ignored="false" />
+    <file path="/Shader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418471913273" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Time.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418293428571" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418453998947" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/MainComponent.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418389344602" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/RenderUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418293428571" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/RenderUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418454131494" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Window.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418453912928" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Vector2f.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Matrix4f.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Matrix4f.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418453912928" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418453912928" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Vector3f.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Util.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Quaternion.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
-    <file path="/basicVertex.vert" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418389981507" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/res/shaders/basicFragment.fs" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418293464367" ignored="false" />
+    <file path="/basicVertex.vert" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418440194173" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/res/shaders/basicFragment.fs" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418454053831" ignored="false" />
     <file path="/basicFragment.fs" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418293449133" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/res/shaders/basicVertex.vs" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418293460671" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/res/shaders/basicVertex.vs" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418454046473" ignored="false" />
     <file path="/basicVertex.vs" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418293453591" ignored="false" />
-    <file path="$USER_HOME$/gamedev/3DGameEngine/.idea/workspace.xml" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418434971465" ignored="false" />
-    <file path="/basicFragment.frag" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418388986779" ignored="false" />
+    <file path="$USER_HOME$/gamedev/3DGameEngine/.idea/workspace.xml" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418463563907" ignored="false" />
+    <file path="/basicFragment.frag" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418471979239" ignored="false" />
     <file path="/Transform.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418434003228" ignored="false" />
-    <file path="/Camera.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418434738614" ignored="false" />
-    <file path="/Dummy.txt" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418434912612" ignored="false" />
+    <file path="/Camera.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418470220551" ignored="false" />
+    <file path="/Dummy.txt" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418463658633" ignored="false" />
+    <file path="/Texture.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418436063479" ignored="false" />
+    <file path="/BasicShader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418472465827" ignored="false" />
+    <file path="/Material.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418471680367" ignored="false" />
+    <file path="/PhongShader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418474746781" ignored="false" />
+    <file path="/phongFragment.frag" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418473962435" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,23 +129,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/jaspervine/core/ResourceLoader.java" line="91" class="com.jaspervine.core.ResourceLoader" package="com.jaspervine.core">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -128,10 +140,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Main.java">
+      <file leaf-file-name="BasicShader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/BasicShader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="45" selection-start="2660" selection-end="2660" vertical-scroll-proportion="0.0">
+            <state line="18" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,98 +151,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RenderUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="38" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Material.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="8" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="0" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="22" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="54" selection-start="847" selection-end="847" vertical-scroll-proportion="0.25157234">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Input.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Input.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#527#536#0" expanded="true" />
-                <element signature="e#602#611#0" expanded="true" />
-                <element signature="e#675#684#0" expanded="true" />
-                <element signature="e#755#764#0" expanded="true" />
-                <element signature="e#831#840#0" expanded="true" />
-                <element signature="e#905#914#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vector3.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="16" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-13.48">
+            <state line="50" column="64" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.5141129">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transform.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Transform.java">
+      <file leaf-file-name="PhongShader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="11" selection-start="2923" selection-end="2923" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matrix4.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/math/Matrix4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="64" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.0">
+            <state line="33" column="35" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Vertex.java">
+      <file leaf-file-name="phongFragment.frag" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/shaders/phongFragment.frag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="9" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+            <state line="17" column="42" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mesh.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java">
+      <file leaf-file-name="phongVertex.vert" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/shaders/phongVertex.vert">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="31" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="box.obj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/models/box.obj">
+      <file leaf-file-name="basicFragment.frag" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/shaders/basicFragment.frag">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="15" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
+            <state line="11" column="65" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -254,22 +243,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java" />
-        <option value="$PROJECT_DIR$/res/shaders/basicFragment.frag" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Time.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/core/ResourceLoader.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/core/Util.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" />
-        <option value="$PROJECT_DIR$/res/shaders/basicVertex.vert" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Vertex.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/math/Matrix4.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Transform.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
+        <option value="$PROJECT_DIR$/res/shaders/basicVertex.vert" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/core/Input.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/math/Matrix4.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" />
+        <option value="$PROJECT_DIR$/res/shaders/basicFragment.frag" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/BasicShader.java" />
+        <option value="$PROJECT_DIR$/res/shaders/phongFragment.frag" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
       </list>
     </option>
   </component>
@@ -310,7 +299,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -329,13 +318,17 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="LEngine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -348,9 +341,107 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaspervine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaspervine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jaspervine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shaders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +452,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/slick-util/jorbis-0.0.15.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -369,13 +460,17 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jaspervine.graphics" />
       <recent name="com.jaspervine.core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/shaders" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res" />
@@ -395,6 +490,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -423,19 +531,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -533,20 +628,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -554,11 +648,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1814921" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2430279" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1814921" sideWeight="0.7264276" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2735724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -627,83 +722,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/ArrayList.class">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="30" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.3320158">
+        <state line="54" column="35" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/ResourceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="2947" selection-end="2947" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1527#1535#0" expanded="true" />
-            <element signature="e#1589#1598#0" expanded="true" />
-            <element signature="e#1888#1896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/basicFragment.frag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/basicVertex.vert">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/models/box.obj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="15" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="31" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="45" selection-start="2660" selection-end="2660" vertical-scroll-proportion="0.0">
+        <state line="138" column="62" selection-start="4122" selection-end="4122" vertical-scroll-proportion="2.805395">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -712,57 +740,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="16" selection-start="1381" selection-end="1381" vertical-scroll-proportion="-13.48">
+        <state line="58" column="30" selection-start="1429" selection-end="1429" vertical-scroll-proportion="-0.894027">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/basicVertex.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="0" selection-end="234" vertical-scroll-proportion="0.3468208">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jaspervine/math/Matrix4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="64" selection-start="4544" selection-end="4544" vertical-scroll-proportion="0.0">
+        <state line="134" column="26" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.5510597">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="11" selection-start="2923" selection-end="2923" vertical-scroll-proportion="0.0">
+        <state line="57" column="67" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.028901733">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="38" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/basicFragment.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="65" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/phongVertex.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/phongFragment.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="28" selection-start="3073" selection-end="3073" vertical-scroll-proportion="2.6330645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/BasicShader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="0" selection-start="2869" selection-end="2869" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="35" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="22" selection-start="991" selection-end="991" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#527#536#0" expanded="true" />
-            <element signature="e#602#611#0" expanded="true" />
-            <element signature="e#675#684#0" expanded="true" />
-            <element signature="e#755#764#0" expanded="true" />
-            <element signature="e#831#840#0" expanded="true" />
-            <element signature="e#905#914#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="54" selection-start="847" selection-end="847" vertical-scroll-proportion="0.25157234">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="50" column="64" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.5141129">
+          <folding />
         </state>
       </provider>
     </entry>

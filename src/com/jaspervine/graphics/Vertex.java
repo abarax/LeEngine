@@ -1,5 +1,6 @@
 package com.jaspervine.graphics;
 
+import com.jaspervine.math.Vector2;
 import com.jaspervine.math.Vector3;
 
 /**
@@ -11,16 +12,23 @@ import com.jaspervine.math.Vector3;
  */
 public class Vertex {
     private Vector3 position;
+    private Vector2 textureCoordinates;
 
-    public static final int SIZE = 3;
+    public static final int SIZE = 5;
 
     public Vertex(Vector3 v) {
-        position = v;
+        this(v, new Vector2(0, 0));
     }
 
     public Vertex(float x, float y, float z) {
         position = new Vector3(x, y, z);
     }
+
+    public Vertex(Vector3 v, Vector2 textureCoordinates) {
+        this.position = v;
+        this.textureCoordinates = textureCoordinates;
+    }
+
 
     public Vector3 getPosition() {
         return position;
@@ -28,5 +36,13 @@ public class Vertex {
 
     public void setPosition(Vector3 position) {
         this.position = position;
+    }
+
+    public Vector2 getTextureCoordinates() {
+        return textureCoordinates;
+    }
+
+    public void setTextureCoordinates(Vector2 textureCoordinates) {
+        this.textureCoordinates = textureCoordinates;
     }
 }

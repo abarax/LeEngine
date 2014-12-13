@@ -2,7 +2,9 @@ package com.jaspervine.core;
 
 import com.jaspervine.math.Vector2;
 import org.lwjgl.BufferUtils;
-import org.lwjgl.glfw.GLFW;
+import org.lwjgl.glfw.GLFWCursorPosCallback;
+
+import static org.lwjgl.glfw.GLFW.*;
 
 import java.nio.DoubleBuffer;
 import java.util.ArrayList;
@@ -26,6 +28,30 @@ public class Input {
     private static ArrayList<Integer> currentMouse = new ArrayList<Integer>();
     private static ArrayList<Integer> downMouse = new ArrayList<Integer>();
     private static ArrayList<Integer> upMouse = new ArrayList<Integer>();
+
+    private static GLFWCursorPosCallback cursor_pos_callback;
+
+    // Mouse positions
+    private static int mouseX, mouseY;
+    private static int mouseDX, mouseDY;
+
+    public static void init() {
+
+        mouseX = mouseY = mouseDX = mouseDY = 0;
+
+        glfwSetCursorPosCallback(Window.getWindow(), cursor_pos_callback = new GLFWCursorPosCallback() {
+            @Override
+            public void invoke(long window, double xpos, double ypos) {
+
+                // Add delta of x and y mouse coordinates
+                mouseDX += (int)xpos - mouseX;
+                mouseDY += (int)xpos - mouseY;
+                // Set new positions of x and y
+                mouseX = (int) xpos;
+                mouseY = (int) ypos;
+            }
+        });
+    }
 
     public static void update() {
 
@@ -80,7 +106,7 @@ public class Input {
     }
 
     public static boolean getKey(int keyCode) {
-        return GLFW.glfwGetKey(Window.getWindow(), keyCode) == GLFW.GLFW_PRESS;
+        return glfwGetKey(Window.getWindow(), keyCode) == GLFW_PRESS;
     }
 
     public static boolean getKeyDown(int keyCode) {
@@ -92,7 +118,7 @@ public class Input {
     }
 
     public static boolean getMouse(int mouseButton){
-        return GLFW.glfwGetMouseButton(Window.getWindow(), mouseButton) == GLFW.GLFW_PRESS;
+        return glfwGetMouseButton(Window.getWindow(), mouseButton) == GLFW_PRESS;
     }
 
     public static boolean getMouseDown(int mouseButton) {
@@ -103,11 +129,33 @@ public class Input {
         return upMouse.contains(mouseButton);
     }
 
-    public static Vector2 getMousePosition() {
-        DoubleBuffer x = BufferUtils.createDoubleBuffer(1);
-        DoubleBuffer y = BufferUtils.createDoubleBuffer(1);
+    public static int getDX(){
+        // Return mouse delta x and set delta x to 0
+        return mouseDX | (mouseDX = 0);
+    }
 
-        GLFW.glfwGetCursorPos(Window.getWindow(), x, y);
-        return new Vector2((float)x.get(0), (float)y.get(0));
+    public static int getDY(){
+        // Return mouse delta y and set delta y to 0
+        return mouseDY | (mouseDY = 0);
+    }
+
+    public static Vector2 getMouseDelta() {
+        return new Vector2(Input.getDX(), Input.getDY());
+    }
+
+    public static Vector2 getMousePosition() {
+        return new Vector2(mouseX, mouseY);
+    }
+
+    public static void setMousePosition(Vector2 position) {
+        glfwSetCursorPos(Window.getWindow(), position.getX(), position.getY());
+    }
+
+    public static void setCursor(boolean enable) {
+        if (!enable) {
+            glfwSetInputMode(Window.getWindow(), GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
+        } else {
+            glfwSetInputMode(Window.getWindow(), GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+        }
     }
 }

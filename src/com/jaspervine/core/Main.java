@@ -52,6 +52,7 @@ public class Main {
         }
 
         Window.createWindow(WIDTH, HEIGHT, TITLE);
+        Input.init();
 
         System.out.println("OpenGL Version: " + RenderUtil.getOpenGLVersion());
 
@@ -83,7 +84,6 @@ public class Main {
             // Run the rendering loop until the user has attempted to close
             // the window or has pressed the ESCAPE key.
             while ( isRunning ) {
-
 
                 boolean render = false;
 
@@ -117,12 +117,7 @@ public class Main {
                 }
 
                 if (render) {
-
-
-                    // wipe the drawing surface clear
-                    glClear (GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
                     render();
-
                     frames++;
                 } else {
                     try {

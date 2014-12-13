@@ -2,6 +2,8 @@ package com.jaspervine.graphics;
 
 import com.jaspervine.core.Input;
 import com.jaspervine.core.Time;
+import com.jaspervine.core.Window;
+import com.jaspervine.math.Vector2;
 import com.jaspervine.math.Vector3;
 
 import static org.lwjgl.glfw.GLFW.*;
@@ -21,22 +23,47 @@ public class Camera {
     private Vector3 forward;
     private Vector3 up;
 
+    private boolean mouseLocked = false;
+    Vector2 centerPosition = new Vector2(Window.getWidth()/2, Window.getHeight()/2);
+    boolean rotX = false;
+    boolean rotY = false;
+
+    double prevX;
+    double prevY;
+
     public Camera() {
         this(new Vector3(0,0,0), new Vector3(0,0,1), new Vector3(0,1,0));
     }
 
     public Camera (Vector3 position, Vector3 forward, Vector3 up) {
         this.position = position;
-        this.forward = forward;
-        this.up = up;
-
-        forward.normalize();
-        up.normalize();
+        this.forward = forward.normalized();
+        this.up = up.normalized();
     }
 
     public void input() {
         float movementAmount = (float)( 10.0f * Time.getDelta());
+        float sensitivity = 0.8f;
+
         float rotateAmount = (float)( 100.0f * Time.getDelta());
+
+        if(Input.getKey(GLFW_KEY_ESCAPE)){
+            Input.setCursor(true);
+            mouseLocked = false;
+        }
+
+        if (Input.getMouse(GLFW_MOUSE_BUTTON_1)) {
+            Input.setMousePosition(centerPosition);
+           // Input.setCursor(false);
+            mouseLocked = true;
+            prevX = centerPosition.getX();
+            prevY = centerPosition.getY();
+
+        }
+
+//        if (Input.getMouse(GLFW_MOUSE_BUTTON_1)) {
+//            System.out.println("Mouse Position: " + Input.getMousePosition());
+//        }
 
         if(Input.getKey(GLFW_KEY_W))
             move(getForward(), movementAmount);
@@ -56,6 +83,32 @@ public class Camera {
         if(Input.getKey(GLFW_KEY_RIGHT))
             rotateX(rotateAmount);
 
+        if (mouseLocked) {
+
+            Vector2 input = Input.getMousePosition();
+
+            Vector2 deltaPos = new Vector2((float) (input.getX() - prevX), (float) (input.getY() - prevY));
+
+            rotX = deltaPos.getX() != 0;
+
+            rotY = deltaPos.getY() != 0;
+
+            if(rotY) {
+                rotateY(deltaPos.getY() * sensitivity * (float)Time.getDelta());
+            }
+            if(rotX) {
+                rotateX(deltaPos.getX() * sensitivity * (float)Time.getDelta());
+            }
+
+            if(rotY || rotX) {
+                //Input.setMousePosition(new Vector2(Window.getWidth()/2, Window.getHeight()/2));
+                prevX = centerPosition.getX();
+                prevY = centerPosition.getY();
+                rotY = false;
+                rotX = false;
+            }
+        }
+
 
     }
 
@@ -64,36 +117,26 @@ public class Camera {
     }
 
     public void rotateX(float angle) {
-        Vector3 horizontal = yAxis.crossProduct(forward);
-        horizontal.normalize();
+        Vector3 horizontal = yAxis.crossProduct(forward).normalized();
 
-        forward.rotate(angle, yAxis);
-        forward.normalize();
-
-        up = forward.crossProduct(horizontal);
-        up.normalize();
+        this.forward = forward.rotate(angle, yAxis).normalized();
+        this.up = forward.crossProduct(horizontal).normalized();
     }
 
     public void rotateY(float angle) {
-        Vector3 horizontal = yAxis.crossProduct(forward);
-        horizontal.normalize();
+        Vector3 horizontal = yAxis.crossProduct(forward).normalized();
 
-        forward.rotate(angle, horizontal);
-        forward.normalize();
-
-        up = forward.crossProduct(horizontal);
-        up.normalize();
+        this.forward = forward.rotate(angle, horizontal).normalized();
+        this.up = forward.crossProduct(horizontal).normalized();
     }
 
     public Vector3 getLeft(){
-        Vector3 left = forward.crossProduct(up);
-        left.normalize();
+        Vector3 left = forward.crossProduct(up).normalized();
         return left;
     }
 
     public Vector3 getRight(){
-        Vector3 right = up.crossProduct(forward);
-        right.normalize();
+        Vector3 right = up.crossProduct(forward).normalized();
         return right;
     }
 

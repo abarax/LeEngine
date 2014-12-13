@@ -47,14 +47,18 @@ public class Mesh
     public void draw()
     {
         glEnableVertexAttribArray (0);
+        glEnableVertexAttribArray (1);
+
         glBindBuffer (GL_ARRAY_BUFFER, vbo);
-        glVertexAttribPointer (0, 3, GL_FLOAT, false, 0, 0);
+        glVertexAttribPointer (0, 3, GL_FLOAT, false, Vertex.SIZE * 4, 0);
+        glVertexAttribPointer (1, 2, GL_FLOAT, false, Vertex.SIZE * 4, 12);
 
         glBindVertexArray(vao);
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
         glDrawElements(GL_TRIANGLES, size, GL_UNSIGNED_INT, 0);
-        // draw points 0-3 from the currently bound VAO with current in-use shader
-        //glDrawArrays(GL_TRIANGLES, 0, 3);
-        // update other events like input handling
+
+        glDisableVertexAttribArray(0);
+        glDisableVertexAttribArray(1);
+
     }
 }

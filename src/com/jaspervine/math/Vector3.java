@@ -28,13 +28,13 @@ public class Vector3 {
         return x * v.getX() + y * v.getY() + z * v.getZ();
     }
 
-    public Vector3 normalize(){
+    public Vector3 normalized(){
         float length = this.length();
-        x /= length;
-        y /= length;
-        z /= length;
+        float _x = this.x / length;
+        float _y = this.y / length;
+        float _z = this.z / length;
 
-        return this;
+        return new Vector3(_x, _y, _z);
     }
 
     public Vector3 crossProduct(Vector3 v) {
@@ -62,11 +62,7 @@ public class Vector3 {
 
         Quaternion w = rotation.multiply(this).multiply(conjugate);
 
-        x = w.getX();
-        y = w.getY();
-        z = w.getZ();
-
-        return this;
+        return new Vector3(w.getX(), w.getY(), w.getZ());
 
     }
 
@@ -108,6 +104,10 @@ public class Vector3 {
     public Vector3 divide(float v) {
 
         return new Vector3(x / v, y / v, z / v) ;
+    }
+
+    public Vector3 abs() {
+        return new Vector3(Math.abs(x), Math.abs(y), Math.abs(z));
     }
 
 

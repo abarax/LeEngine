@@ -35,6 +35,10 @@ public class Shader {
         glUseProgram(program);
     }
 
+    public void updateUniforms(Matrix4 worldMatrix, Matrix4 projectedMatrix, Material material) {
+
+    }
+
     public void addUniform(String uniform) {
         int uniformLocation = glGetUniformLocation(program, uniform);
 

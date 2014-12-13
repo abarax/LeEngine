@@ -1,11 +1,15 @@
 package com.jaspervine.core;
 
 import com.jaspervine.graphics.Mesh;
+import com.jaspervine.graphics.Texture;
 import com.jaspervine.graphics.Vertex;
 import com.jaspervine.math.Vector3;
+import org.newdawn.slick.opengl.TextureLoader;
 
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -102,5 +106,26 @@ public class ResourceLoader {
         return mesh;
 
 
+    }
+
+    public static Texture loadTexture (String fileName) {
+
+        try {
+
+            String  [] splitFilename = fileName.split("\\.");
+
+            String extention = splitFilename[splitFilename.length - 1];
+
+            int id = TextureLoader.getTexture(extention, new FileInputStream(new File("./res/textures/" + fileName))).getTextureID();
+
+            return new Texture(id);
+
+
+        }   catch (Exception e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
+
+        return null;
     }
 }

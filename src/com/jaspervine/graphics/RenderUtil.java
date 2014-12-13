@@ -1,5 +1,6 @@
 package com.jaspervine.graphics;
 
+import com.jaspervine.math.Vector3;
 import org.lwjgl.opengl.GLContext;
 
 import static org.lwjgl.opengl.GL11.*;
@@ -31,11 +32,30 @@ public class RenderUtil {
         glCullFace(GL_BACK);
         glEnable(GL_CULL_FACE);
         glEnable(GL_DEPTH_TEST);
+
+        glEnable(GL_TEXTURE_2D);
         glEnable(GL_FRAMEBUFFER_SRGB);
 
     }
 
     public static String getOpenGLVersion() {
         return glGetString(GL_VERSION);
+    }
+
+    public static void setTextures(boolean enabled) {
+        if (enabled){
+            glEnable(GL_TEXTURE_2D);
+        }
+        else {
+            glDisable(GL_TEXTURE_2D);
+        }
+    }
+
+    public static void setClearColour(Vector3 colour) {
+        glClearColor(colour.getX(), colour.getY(), colour.getZ(), 1.0f);
+    }
+
+    public static void unbindTextures() {
+        glBindTexture(GL_TEXTURE_2D, 0);
     }
 }

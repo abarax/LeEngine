@@ -1,5 +1,7 @@
 package com.jaspervine.math;
 
+import java.util.Arrays;
+
 /**
  * Created with IntelliJ IDEA.
  * User: abarax
@@ -93,11 +95,8 @@ public class Matrix4 {
 
     public Matrix4 initCamera(Vector3 forward, Vector3 up) {
 
-        Vector3 f = forward;
-        f.normalize();
-
-        Vector3 right = up;
-        right.normalize();
+        Vector3 f = forward.normalized();
+        Vector3 right = up.normalized();
 
         right = right.crossProduct(f);
 
@@ -136,7 +135,13 @@ public class Matrix4 {
     }
 
     public float[][] getM() {
-        return m;
+        float[][] result =  new float [4][4];
+
+        for (int i = 0; i < m.length; i++) {
+            System.arraycopy(m[i], 0, result[i], 0, m[0].length);
+        }
+
+        return result;
     }
 
     public void setM(float[][] m) {
