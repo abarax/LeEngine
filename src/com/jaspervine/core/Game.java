@@ -43,12 +43,21 @@ public class Game {
                 0, 2, 3
         };
 
-        mesh.addVertices(vertices, indices);
+        mesh.addVertices(vertices, indices, true);
 
         shader = PhongShader.getInstance();
         camera = new Camera();
 
         PhongShader.setAmbientLight(new Vector3(0.2f, 0.2f, 0.2f));
+        PhongShader.setDirectionalLight(
+            new DirectionalLight(
+                new BaseLight(
+                    new Vector3(1f, 1f, 1f),
+                        0.8f
+                ),
+                new Vector3(1f, 1f, 1f)
+            )
+        );
 
 
         transform = new Transform();
@@ -73,7 +82,7 @@ public class Game {
 
         float sin = (float)Math.sin(temp);
 
-        transform.setTranslation(sin, 0, 5);
+        //transform.setTranslation(sin, 0, 5);
 
         //transform.setRotation(0, sin * 180, 0);
 

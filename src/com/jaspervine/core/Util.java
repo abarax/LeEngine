@@ -43,6 +43,9 @@ public class Util {
             buffer.put(vertices[i].getPosition().getZ());
             buffer.put(vertices[i].getTextureCoordinates().getX());
             buffer.put(vertices[i].getTextureCoordinates().getY());
+            buffer.put(vertices[i].getNormal().getX());
+            buffer.put(vertices[i].getNormal().getY());
+            buffer.put(vertices[i].getNormal().getZ());
         }
 
         buffer.flip();
@@ -70,7 +73,7 @@ public class Util {
         int [] result = new int [array.length];
 
         for(int i = 0; i < array.length; i++)
-            result[i] = array[i].intValue();
+            result[i] = array[i];
 
         return result;
     }

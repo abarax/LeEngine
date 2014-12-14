@@ -13,8 +13,9 @@ import com.jaspervine.math.Vector3;
 public class Vertex {
     private Vector3 position;
     private Vector2 textureCoordinates;
+    private Vector3 normal;
 
-    public static final int SIZE = 5;
+    public static final int SIZE = 8;
 
     public Vertex(Vector3 v) {
         this(v, new Vector2(0, 0));
@@ -25,8 +26,13 @@ public class Vertex {
     }
 
     public Vertex(Vector3 v, Vector2 textureCoordinates) {
+        this(v, textureCoordinates, new Vector3(0,0,0));
+    }
+
+    public Vertex(Vector3 v, Vector2 textureCoordinates, Vector3 normal) {
         this.position = v;
         this.textureCoordinates = textureCoordinates;
+        this.normal = normal;
     }
 
 
@@ -44,5 +50,13 @@ public class Vertex {
 
     public void setTextureCoordinates(Vector2 textureCoordinates) {
         this.textureCoordinates = textureCoordinates;
+    }
+
+    public Vector3 getNormal() {
+        return normal;
+    }
+
+    public void setNormal(Vector3 normal) {
+        this.normal = normal;
     }
 }
