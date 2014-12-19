@@ -31,9 +31,9 @@ public class Game {
                     new BaseLight(
                             new Vector3(0,0.5f,1), 0.8f),
                     new Vector3(2f, 0, 7f),
-                    new Attenuation(0,0,1f), 10),
+                    new Attenuation(1,1,1), 1),
             new Vector3(1, 1, 1),
-            0.7f
+            .7f
     );
 
     public Game(){

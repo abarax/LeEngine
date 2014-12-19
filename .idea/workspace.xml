@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be66768-61f3-4676-8cf2-89107d1fc248" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Attenuation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/PointLight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/SpotLight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/Transform.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/Transform.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/shaders/phongFragment.frag" afterPath="$PROJECT_DIR$/res/shaders/phongFragment.frag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/shaders/phongVertex.vert" afterPath="$PROJECT_DIR$/res/shaders/phongVertex.vert" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="3DGameEngine.iws" />
@@ -22,7 +11,7 @@
     <file path="/Window.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418366992968" ignored="false" />
     <file path="/fragment.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418472395382" ignored="false" />
     <file path="/Time.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418389325438" ignored="false" />
-    <file path="/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418904963308" ignored="false" />
+    <file path="/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418979445836" ignored="false" />
     <file path="/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418567244371" ignored="false" />
     <file path="/Vector.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418267391672" ignored="false" />
     <file path="/Vector2.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418267312115" ignored="false" />
@@ -141,10 +130,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="43" selection-start="3924" selection-end="3924" vertical-scroll-proportion="-16.44">
+            <state line="28" column="35" selection-start="773" selection-end="773" vertical-scroll-proportion="0.36305732">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,10 +170,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Camera.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="488" selection-end="488" vertical-scroll-proportion="0.6048387">
+            <state line="20" column="59" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -269,8 +258,8 @@
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/SpotLight.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
       </list>
     </option>
   </component>
@@ -842,18 +831,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="43" selection-start="3924" selection-end="3924" vertical-scroll-proportion="-16.44">
+        <state line="20" column="59" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="488" selection-end="488" vertical-scroll-proportion="0.6048387">
+        <state line="28" column="35" selection-start="773" selection-end="773" vertical-scroll-proportion="0.36305732">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
