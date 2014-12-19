@@ -25,14 +25,21 @@ public class Camera {
 
     private boolean mouseLocked = false;
     Vector2 centerPosition = new Vector2(Window.getWidth()/2, Window.getHeight()/2);
-    boolean rotX = false;
-    boolean rotY = false;
+    boolean rotX = true;
+    boolean rotY = true;
 
-    double prevX;
+    double prevX = centerPosition.getX();
     double prevY;
 
+    Vector2 deltaPos = centerPosition;
+
+    float horizontalAngle;
+    float verticalAngle;
+
+    private static final float MaxVerticalAngle = 85.0f; //must be less than 90 to avoid gimbal lock
+
     public Camera() {
-        this(new Vector3(0,0,0), new Vector3(0,0,1), new Vector3(0,1,0));
+        this(new Vector3(1, 1, -2), new Vector3(0,0,1), new Vector3(0,1,0));
     }
 
     public Camera (Vector3 position, Vector3 forward, Vector3 up) {
@@ -43,7 +50,7 @@ public class Camera {
 
     public void input() {
         float movementAmount = (float)( 10.0f * Time.getDelta());
-        float sensitivity = 0.8f;
+        float sensitivity = 0.0005f;
 
         float rotateAmount = (float)( 100.0f * Time.getDelta());
 
@@ -54,6 +61,7 @@ public class Camera {
 
         if (Input.getMouse(GLFW_MOUSE_BUTTON_1)) {
             Input.setMousePosition(centerPosition);
+            glfwSetInputMode(Window.getWindow(), GLFW_CURSOR, GLFW_CURSOR_DISABLED);
            // Input.setCursor(false);
             mouseLocked = true;
             prevX = centerPosition.getX();
@@ -74,6 +82,9 @@ public class Camera {
         if(Input.getKey(GLFW_KEY_D))
             move(getRight(), movementAmount);
 
+        if(Input.getKey(GLFW_KEY_SPACE))
+            move(getUp(), movementAmount);
+
         if(Input.getKey(GLFW_KEY_UP))
             rotateY(-rotateAmount);
         if(Input.getKey(GLFW_KEY_DOWN))
@@ -87,25 +98,31 @@ public class Camera {
 
             Vector2 input = Input.getMousePosition();
 
-            Vector2 deltaPos = new Vector2((float) (input.getX() - prevX), (float) (input.getY() - prevY));
+            deltaPos = new Vector2((input.getX() - centerPosition.getX()), (input.getY() - centerPosition.getY()));
 
-            rotX = deltaPos.getX() != 0;
+            System.out.println("Delta X: " + deltaPos.getX());
+            System.out.println("Delta Y: " + deltaPos.getY());
 
-            rotY = deltaPos.getY() != 0;
+            rotX = deltaPos.getX() < -1 || deltaPos.getX() > 1;
+            rotY = deltaPos.getY() < -1 || deltaPos.getY() > 1;
+
 
             if(rotY) {
-                rotateY(deltaPos.getY() * sensitivity * (float)Time.getDelta());
+                rotateY(deltaPos.getY() * sensitivity);
             }
             if(rotX) {
-                rotateX(deltaPos.getX() * sensitivity * (float)Time.getDelta());
+                rotateX(deltaPos.getX() * sensitivity );
             }
 
+            Input.setMousePosition(centerPosition);
             if(rotY || rotX) {
-                //Input.setMousePosition(new Vector2(Window.getWidth()/2, Window.getHeight()/2));
+                Input.setMousePosition(centerPosition);
                 prevX = centerPosition.getX();
                 prevY = centerPosition.getY();
                 rotY = false;
                 rotX = false;
+                deltaPos.setX(centerPosition.getX());
+                deltaPos.setY(centerPosition.getY());
             }
         }
 
@@ -117,16 +134,20 @@ public class Camera {
     }
 
     public void rotateX(float angle) {
+
+        float newAngle = normalizeHorizontalAngle(angle);
         Vector3 horizontal = yAxis.crossProduct(forward).normalized();
 
-        this.forward = forward.rotate(angle, yAxis).normalized();
+        this.forward = forward.rotate(newAngle, yAxis).normalized();
         this.up = forward.crossProduct(horizontal).normalized();
     }
 
     public void rotateY(float angle) {
+
+        float newAngle = normalizeVerticalAngle(angle);
         Vector3 horizontal = yAxis.crossProduct(forward).normalized();
 
-        this.forward = forward.rotate(angle, horizontal).normalized();
+        this.forward = forward.rotate(newAngle, horizontal).normalized();
         this.up = forward.crossProduct(horizontal).normalized();
     }
 
@@ -162,5 +183,26 @@ public class Camera {
 
     public void setUp(Vector3 up) {
         this.up = up;
+    }
+
+    private float normalizeHorizontalAngle(float angle) {
+        angle = angle % 360.0f;
+
+        if(angle < 0.0f)
+            angle += 360.0f;
+
+        return angle;
+    }
+
+    private float normalizeVerticalAngle(float angle) {
+
+        if(angle > MaxVerticalAngle){
+            angle = MaxVerticalAngle;
+        }
+        else if(angle < -MaxVerticalAngle) {
+            angle = -MaxVerticalAngle;
+        }
+
+        return angle;
     }
 }

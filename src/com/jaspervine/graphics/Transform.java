@@ -18,7 +18,7 @@ public class Transform {
     private static float height;
     private static float fov;
 
-    private Camera camera;
+    private static Camera camera;
 
 
     private Vector3 translation;
@@ -100,11 +100,11 @@ public class Transform {
         this.scale = scale;
     }
 
-    public Camera getCamera() {
+    public static Camera getCamera() {
         return camera;
     }
 
-    public void setCamera(Camera camera) {
-        this.camera = camera;
+    public static void setCamera(Camera camera) {
+        Transform.camera = camera;
     }
 }

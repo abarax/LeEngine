@@ -43,7 +43,7 @@ public class Shader {
         int uniformLocation = glGetUniformLocation(program, uniform);
 
         if(uniformLocation == 0xFFFFFFFF){
-            System.err.println("Error: could not find unform: " + uniform);
+            System.err.println("Error: could not find uniform: " + uniform);
             new Exception().printStackTrace();
         }
         uniforms.put(uniform, uniformLocation);
