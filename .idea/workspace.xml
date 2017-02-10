@@ -2,25 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be66768-61f3-4676-8cf2-89107d1fc248" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/Door.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/models/level1.obj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LEngine.iml" afterPath="$PROJECT_DIR$/LEngine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" afterPath="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="3DGameEngine.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418568153152" ignored="false" />
-    <file path="/Window.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418366992968" ignored="false" />
-    <file path="/fragment.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418472395382" ignored="false" />
+    <file path="/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1437982916986" ignored="false" />
+    <file path="/Window.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419058752631" ignored="false" />
+    <file path="/fragment.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1437985979892" ignored="false" />
     <file path="/Time.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418389325438" ignored="false" />
-    <file path="/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418979445836" ignored="false" />
-    <file path="/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418567244371" ignored="false" />
+    <file path="/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1420720049339" ignored="false" />
+    <file path="/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154302255" ignored="false" />
     <file path="/Vector.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418267391672" ignored="false" />
-    <file path="/Vector2.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418267312115" ignored="false" />
-    <file path="/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418470403318" ignored="false" />
-    <file path="/Matrix4.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418470995797" ignored="false" />
+    <file path="/Vector2.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419602028525" ignored="false" />
+    <file path="/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419238621532" ignored="false" />
+    <file path="/Matrix4.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421328363361" ignored="false" />
     <file path="/Quaternion.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418269466130" ignored="false" />
-    <file path="/RenderUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418898961649" ignored="false" />
-    <file path="/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418476539332" ignored="false" />
-    <file path="/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418476961052" ignored="false" />
+    <file path="/RenderUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419524303851" ignored="false" />
+    <file path="/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422357374211" ignored="false" />
+    <file path="/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419800841313" ignored="false" />
     <file path="/Util.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418476778242" ignored="false" />
     <file path="/ShaderProgram.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418275180065" ignored="false" />
     <file path="/FileUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418275195014" ignored="false" />
@@ -29,8 +33,8 @@
     <file path="$PROJECT_DIR$/../Test/src/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418279425421" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418280435307" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/Util.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418279746797" ignored="false" />
-    <file path="/ResourceLoader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418436735091" ignored="false" />
-    <file path="/Shader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418471913273" ignored="false" />
+    <file path="/ResourceLoader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154241050" ignored="false" />
+    <file path="/Shader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154168812" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Time.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418287341061" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/src/com/base/engine/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418898083334" ignored="false" />
@@ -51,10 +55,10 @@
     <file path="/basicVertex.vs" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418293453591" ignored="false" />
     <file path="$USER_HOME$/gamedev/3DGameEngine/.idea/workspace.xml" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418463563907" ignored="false" />
     <file path="/basicFragment.frag" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418471979239" ignored="false" />
-    <file path="/Transform.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418898111283" ignored="false" />
+    <file path="/Transform.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418996508836" ignored="false" />
     <file path="/Camera.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418905024677" ignored="false" />
-    <file path="/Dummy.txt" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418551656336" ignored="false" />
-    <file path="/Texture.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418436063479" ignored="false" />
+    <file path="/Dummy.txt" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1437985902799" ignored="false" />
+    <file path="/Texture.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419153875049" ignored="false" />
     <file path="/BasicShader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418472465827" ignored="false" />
     <file path="/Material.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418898356064" ignored="false" />
     <file path="/PhongShader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418904545848" ignored="false" />
@@ -66,6 +70,70 @@
     <file path="/Attenuation.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418899801614" ignored="false" />
     <file path="/PointLight.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418902425325" ignored="false" />
     <file path="/SpotLight.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418904915413" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419366277778" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/Bitmao.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418995248462" ignored="false" />
+    <file path="/Bitmao.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418995719082" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/Bitmap.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1418999390218" ignored="false" />
+    <file path="/Bitmap.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421236908932" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/Transform.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419156920011" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/ResourceLoader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419524211115" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Level.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419992271629" ignored="false" />
+    <file path="/Level.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419983504797" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Player.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419615615350" ignored="false" />
+    <file path="/Player.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419615614678" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Window.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419058756739" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/math/Vector2.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419602032501" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Door.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419584148479" ignored="false" />
+    <file path="/Door.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419584142585" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/Mesh.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421735967507" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/Shader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419074221893" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/RenderUtil.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419524351604" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/Camera.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419143612315" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/res/models/level1.obj" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419149410744" ignored="false" />
+    <file path="/level1.obj" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419149410744" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/Texture.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419153878040" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/OriginalWolf3DClone.iml" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154230194" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/Shader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154254608" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/ResourceLoader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154241050" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/Window.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154271692" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/Input.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154309289" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/Monster.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154364423" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/Door.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154385211" ignored="false" />
+    <file path="$USER_HOME$/gamedev/OriginalWolf3DClone/src/com/base/engine/Game.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419154393782" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/math/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419238621231" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Time.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419429298698" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1437982919557" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Monster.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419993439870" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419521087981" ignored="false" />
+    <file path="/Monster.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419992852668" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/BasicShader.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419523977277" ignored="false" />
+    <file path="/Groovy Console" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421820090040" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/graphics/Line.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419801541690" ignored="false" />
+    <file path="/Line.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419993405157" ignored="false" />
+    <file path="$PROJECT_DIR$/../LEWolf/src/com/jaspervine/core/Line.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1419993411725" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Main.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422359901691" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Display.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421391365437" ignored="false" />
+    <file path="/Display.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421322422048" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Bitmap.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421391365437" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Stars3D.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421391365437" ignored="false" />
+    <file path="/Stars3D.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421322442583" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/RenderContext.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422362659522" ignored="false" />
+    <file path="/RenderContext.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422362659522" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Vertex.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422357390379" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/TriangleStars3D.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421391365437" ignored="false" />
+    <file path="/TriangleStars3D.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421294350968" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Vector3.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421313116246" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Matrix4.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421331979460" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Quaternion.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421331871923" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Vector4.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421332017593" ignored="false" />
+    <file path="/Vector4.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421332013310" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Matrix4f.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421329015543" ignored="false" />
+    <file path="/Matrix4f.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421329107933" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Vector4f.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1421331705805" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Edge.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422362365729" ignored="false" />
+    <file path="/Edge.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422362365729" ignored="false" />
+    <file path="$USER_HOME$/gamedev/My3DSoftwarerenderer/src/Gradient.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422362214659" ignored="false" />
+    <file path="/Gradient.java" changelist="1be66768-61f3-4676-8cf2-89107d1fc248" time="1422362214659" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,21 +201,26 @@
       <file leaf-file-name="Game.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="35" selection-start="773" selection-end="773" vertical-scroll-proportion="0.36305732">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="111" column="46" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.60764587">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhongShader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="59" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector3.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="40" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,25 +228,7 @@
       <file leaf-file-name="Input.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Input.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="41" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="59" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+            <state line="20" column="59" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,46 +236,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpotLight.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/SpotLight.java">
+      <file leaf-file-name="Camera.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="47" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+            <state line="20" column="35" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Window.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Window.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="19" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phongFragment.frag" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/shaders/phongFragment.frag">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="2" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+            <state line="31" column="13" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phongVertex.vert" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/shaders/phongVertex.vert">
+      <file leaf-file-name="BasicShader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/BasicShader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+            <state line="34" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointLight.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/PointLight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseLight.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/BaseLight.java">
+      <file leaf-file-name="DirectionalLight.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/DirectionalLight.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mesh.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,14 +310,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/DirectionalLight.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/core/Util.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/core/Input.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Transform.java" />
         <option value="$PROJECT_DIR$/res/shaders/phongVertex.vert" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java" />
-        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Attenuation.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/PointLight.java" />
         <option value="$PROJECT_DIR$/res/shaders/phongFragment.frag" />
@@ -259,12 +323,14 @@
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/SpotLight.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/core/Door.java" />
+        <option value="$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java" />
         <option value="$PROJECT_DIR$/src/com/jaspervine/core/Game.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="623" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -319,6 +385,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -407,41 +474,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shaders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -453,7 +487,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/slick-util/jorbis-0.0.15.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lwjgl.zip!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -468,10 +502,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jaspervine.graphics" />
       <recent name="com.jaspervine.core" />
+      <recent name="com.jaspervine.graphics" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/models" />
       <recent name="$PROJECT_DIR$/res/shaders" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -631,8 +666,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="623" width="1440" height="873" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -648,12 +683,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.72775567" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18005739" sideWeight="0.7264276" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2735724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18005739" sideWeight="0.72775567" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27224436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.7264276" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -727,87 +762,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="21" selection-start="1849" selection-end="1849" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/math/Vector2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="17" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Material.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/RenderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="51" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Attenuation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="70" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="11" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+        <state line="33" column="19" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/phongVertex.vert">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Texture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+        <state line="19" column="24" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Door.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="16" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Shader.java">
+    <entry file="file://$PROJECT_DIR$/res/models/level1.obj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1194" column="10" selection-start="17759" selection-end="17759" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/phongFragment.frag">
+    <entry file="file://$PROJECT_DIR$/res/models/box.obj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="2" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/PhongShader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="59" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/SpotLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="47" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="5" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/PointLight.java">
@@ -817,35 +798,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/BaseLight.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/DirectionalLight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Input.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/BasicShader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="41" selection-start="4228" selection-end="4228" vertical-scroll-proportion="0.0">
+        <state line="34" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Mesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/math/Vector3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jaspervine/graphics/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="59" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+        <state line="20" column="35" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="35" selection-start="773" selection-end="773" vertical-scroll-proportion="0.36305732">
+        <state line="20" column="59" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="13" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jaspervine/core/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="46" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.60764587">
+          <folding />
         </state>
       </provider>
     </entry>

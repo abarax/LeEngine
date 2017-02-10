@@ -16,12 +16,16 @@ import static org.lwjgl.glfw.GLFW.*;
  */
 public class Game {
 
-    Shader shader;
+    private static Shader shader;
     Mesh mesh;
     Mesh ground;
+
+    Mesh level;
+
     Material material;
     Transform transform;
     Camera camera;
+    Door door;
 
     PointLight p1 = new PointLight(new BaseLight(new Vector3(1,0.5f,0), 0.8f), new Vector3(-2f, 0, 5f), new Attenuation(0,0,1f), 10);
     PointLight p2 = new PointLight(new BaseLight(new Vector3(0,0.5f,1), 0.8f), new Vector3(2f, 0, 7f), new Attenuation(0,0,1f), 10);
@@ -42,17 +46,23 @@ public class Game {
 
         mesh = new Mesh();
 
-        material = new Material(ResourceLoader.loadTexture("test.jpg"), new Vector3(1, 1, 1), 1, 8);
+        material = new Material(ResourceLoader.loadTexture("bricks.jpg"), new Vector3(1, 1, 1), 1, 8);
 
-        Vertex[] vertices = new Vertex[] { new Vertex( new Vector3(-1.0f, -1.0f, 0.5773f), new Vector2(0.0f, 0.0f)),
-                         new Vertex( new Vector3(0.0f, -1.0f, -1.15475f),       new Vector2(0.5f, 0.0f)),
-                         new Vertex( new Vector3(1.0f, -1.0f, 0.5773f),     new Vector2(1.0f, 0.0f)),
-                         new Vertex( new Vector3(0.0f, 1.0f, 0.0f),      new Vector2(0.5f, 1.0f)) };
+        Vertex[] vertices = new Vertex[] {
 
-                 int indices[] = { 0, 3, 1,
+
+                new Vertex(new Vector3(-1.0f, -1.0f, 0.5773f), new Vector2(0.0f, 0.0f)),
+                new Vertex(new Vector3(0.0f, -1.0f, -1.15475f), new Vector2(0.5f, 0.0f)),
+                new Vertex(new Vector3(1.0f, -1.0f, 0.5773f), new Vector2(1.0f, 0.0f)),
+                new Vertex(new Vector3(0.0f, 1.0f, 0.0f), new Vector2(0.5f, 1.0f)) };
+
+        int indices[] = {
+                         0, 3, 1,
                          1, 3, 2,
                          2, 3, 0,
-                         1, 2, 0 };
+                         0, 1, 2
+
+                 };
 
         mesh.addVertices(vertices, indices, true);
 
@@ -75,19 +85,19 @@ public class Game {
 
         ground.addVertices(groundVertices, groundFaces, true);
 
-        shader = PhongShader.getInstance();
+        shader = BasicShader.getInstance();
         camera = new Camera();
 
-//        PhongShader.setAmbientLight(new Vector3(0.2f, 0.2f, 0.2f));
-//        PhongShader.setDirectionalLight(
-//            new DirectionalLight(
-//                new BaseLight(
-//                    new Vector3(1f, 1f, 1f),
-//                        0.8f
-//                ),
-//                new Vector3(1f, 1f, 1f)
-//            )
-//        );
+        PhongShader.setAmbientLight(new Vector3(0.2f, 0.2f, 0.2f));
+        PhongShader.setDirectionalLight(
+            new DirectionalLight(
+                new BaseLight(
+                    new Vector3(1f, 1f, 1f),
+                        0.8f
+                ),
+                new Vector3(1f, 1f, 1f)
+            )
+        );
 
 
         PhongShader.setPointLights(new PointLight[] {p1, p2});
@@ -99,6 +109,13 @@ public class Game {
         transform.setCamera(camera);
 
 
+        Transform t = new Transform();
+
+        t.setTranslation(7f, 1.0f, 7f);
+
+        door = new Door(t, material);
+
+       // level = ResourceLoader.loadMesh("level1.obj");
 
     }
 
@@ -132,9 +149,57 @@ public class Game {
     public void render() {
 
         shader.bind();
-        shader.updateUniforms( transform.getTransformation(), transform.getProjectedTransformation(), material);
-        mesh.draw();
+
+
+        //TRIANGLE 1
+        Transform ttt = new Transform();
+
+        ttt.setTranslation(0, 3.0f, 0f);
+
+        shader.updateUniforms( ttt.getTransformation(), ttt.getProjectedTransformation(), material);
         ground.draw();
 
+        mesh.draw();
+
+        //TRIANGLE 2
+        Transform tt = new Transform();
+
+        tt.setTranslation(3f, -3.0f, 3f);
+        tt.setScale(10, 10, 10);
+
+        shader.updateUniforms(tt.getTransformation(), tt.getProjectedTransformation(), material);
+
+        mesh.draw();
+
+        //TRIANGLE 3
+        Transform t = new Transform();
+
+        t.setTranslation(7f, -1.0f, 7f);
+
+        shader.updateUniforms(t.getTransformation(), t.getProjectedTransformation(), material);
+        mesh.draw();
+
+//        //TRIANGLE 4
+        Transform t1 = new Transform();
+
+        t1.setTranslation(6f, -1.0f, 6f);
+//
+        shader.updateUniforms(t1.getTransformation(), t1.getProjectedTransformation(), material);
+//        mesh.draw();
+//
+//        //DOOR
+
+//        level.draw();
+//        Transform t2 = new Transform();
+//        t1.setTranslation(0, 0f, 0f);
+//        //shader.updateUniforms(t2.getTransformation(), t2.getProjectedTransformation(), material);
+//        door.render();
+//        door.render();
+
+
+    }
+
+    public static Shader getShader() {
+        return shader;
     }
 }
